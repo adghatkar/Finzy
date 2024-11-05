@@ -1,0 +1,19 @@
+{
+  "name": "fiinzy",
+  "version": "1.0.0",
+  "description": "Personal Finance Tracker App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm run dev"
+  },
+  "author": "Ashish Ghatkar",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^9.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "react": "^18.3.1"
+  }
+}
