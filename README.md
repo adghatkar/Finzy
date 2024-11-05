@@ -1,0 +1,2 @@
+# Finzy
+Personal Finance Tracker
